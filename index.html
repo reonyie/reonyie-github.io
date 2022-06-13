@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meine Haustiere</title>
+  </head>
+  <body>
+    <main class="container">
+          <nav> 
+            <a href="index.html" role="img"><h4 id="home">home</h4></a>
+            <details close>
+              <summary><img src="https://cdn.pixabay.com/photo/2013/07/13/11/43/cat-158514_960_720.png" alt="Katze" width="50"></summary>
+              <ul role="listbox">
+                <li><a href="Blanchi.html">Blanchi</a></li>
+              </ul>
+            </details>
+            <details close>
+              <summary><img src="https://static.vecteezy.com/system/resources/previews/001/208/880/non_2x/snake-png.png" alt="Schlange" width="50"></summary>
+              <ul role="listbox">
+                <li><a href="Yuna.html">Yuna</a></li>
+              </ul>
+            </details>
+            <details close>
+              <summary><img src="https://cdn.pixabay.com/photo/2016/04/06/17/42/silhouette-1312359_960_720.png" alt="Fische" width="50"></summary>
+              <ul role="listbox">
+                <li><a href="Fische.html">Fische</a></li>
+              <ul>
+            </details>
+            <details close>
+              <summary><img src="https://cdn.pixabay.com/photo/2016/04/07/22/09/silhouette-1314945_960_720.png" alt="Schmetterlinge" width="50"></summary>
+              <ul role="listbox">
+                <li><a href="Schmetterlinge.html">Schmetterlinge</a></li>
+              <ul>
+            </details>
+            <details close>
+              <summary><img src="https://static.vecteezy.com/system/resources/thumbnails/001/198/665/small_2x/camera.png" alt="Galerie" width="50"></summary>
+              <ul role="listbox">
+                <li><a href="Galerie.html">Galerie</a></li>
+              <ul>
+          </nav>
+
+          <h1 id="first">Über die Halterin</h1>
+          
+          <div class="grid">
+            <div class="br">
+              <article>Herzlich willkommen auf meiner Webseite.
+                Mit Freude stelle ich Inen hier meine geliebten Haustiere vor. 
+                <br>
+                Doch für den Anfang, sollten Sie erst mich, die Halterin besser kennen lernen.
+                <br>
+             Mein Name ist Leonie Egloff, ich bin 17 Jahre alt und ich wohne in Effingen im Kanton Aargau. Falls Sie eine Frage an mich haben. bitte ich Sie das <a href="#Kontakt">Kontaktformular</a> auszufüllen.</article>
+            </div>
+            <div class="br">
+              <article><img src="Bilder/IMG_1241.jpg" alt="Me"></article> 
+            </div> 
+          </div>
+          
+          <h1 id="second">Kurze Vorstellungsrunde</h1>
+          <div class="grid">
+            <div class="br">
+              <article><img src="Bilder/IMG_0744.jpg" alt="Blanchi">Blanchi
+                <br> 10 Jahre alt 
+                <br> englische Kurzhaardame
+              </article>
+              <article><img src="Bilder/IMG_0951.jpg" alt="Yuna">Yuna
+                <br>bald 3 Jahre alt 
+                <br> Kornnatterdame
+              </article> 
+              </div>
+          <div class="br">
+          <article><img src="Bilder/IMG_2213.jpg" alt="Aquarium">Mein Aquarium
+            <br> seit 2017
+            <br> Kampffische, Rote Neon, Panzerwelse und Blasenschnecken
+          </article>
+          <article><img src="Bilder/IMG_6623.jpg" alt="Schwalbenschwanz">Der Schwalbenschwanz
+            <br> Schmetterlingszucht
+            <br> Haupthalter ist mein Vater
+          </article> 
+          </div>  
+      </div>
+      <h1 id="Kontakt">Kontakt</h1>
+      <article><form>
+
+        <!-- Grid -->
+        <div class="grid">
+      
+          <!-- Markup example 1: input is inside label -->
+          <label for="Vorname">
+            Vorname
+            <input type="Text" id="Vorname" name="Vorname" placeholder="Vorname" required>
+          </label>
+      
+          <label for="Nachname">
+            Nachname
+            <input type="Text" id="Nachname" name="Nachname" placeholder="Nachname" required>
+          </label>
+      
+        </div>
+      
+        <!-- Markup example 2: input is after label -->
+        <label for="Frage">Ihre Frage</label>
+        <input type="Frage" id="Frage" name="Frage" placeholder="Frage" required>
+        <small>Bei Problemen wenden Sie sich an die Nummer +41 79 373 77 41</small>
+      
+        <!-- Button -->
+        <button type="Bestätigen">Bestätigen</button>
+      
+      </form></article>
+
+    </main>
+  </body>
+</html>
